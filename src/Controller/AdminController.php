@@ -13,6 +13,6 @@ namespace MakvilleControlPanel\Controller;
 class AdminController extends AppController {
 
     public function dashboard () {
-        
+        $this->ControlPanel->dashboard();
     }
 }
